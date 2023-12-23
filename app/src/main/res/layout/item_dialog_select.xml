@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_r_25_stroke_primary"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:padding="10dp"
+    android:maxLines="2"
+    android:ellipsize="end"
+    android:text="@{name}"
+    android:textColor="@color/colorPrimary"
+    tools:text="小破站"
+    android:textSize="16sp"/>

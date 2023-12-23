@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/item_user_shop_group"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:background="@drawable/bg_recharge_amount2"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_shop_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="月卡"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_shop_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/积分"
+                android:textColor="@color/burlyWood"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+       <!--     <TextView
+                android:id="@+id/vip_goods_price_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元"
+                android:textColor="@color/burlyWood"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />-->
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/vip_goods_des_coen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="点击兑换"
+            android:textColor="@color/darkCyan"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+        <!--       <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="3dp"
+                   android:background="@drawable/shape_bg_blue_radius_25dp"
+                   android:gravity="bottom"
+                   android:paddingLeft="8dp"
+                   android:paddingTop="3dp"
+                   android:paddingRight="8dp"
+                   android:paddingBottom="3dp"
+                   android:text="轻触即可购买"
+                   android:textColor="@color/aliceBlue"
+                   android:textSize="10sp" />-->
+    </LinearLayout>
+
+</LinearLayout>

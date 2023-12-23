@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.uniyun.Uaa701B671.uf1455a42",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1.0.3",
+      "outputFile": "TVBoxMobile_v1.0.3_debug.apk"
+    }
+  ]
+}
