@@ -14,9 +14,9 @@ public class HawkConfig {
     public static String dt_ym = "0"; //是否开启动态域名 0开启 1关闭  开启填入动态域名  关闭填入域名 茶茶QQ205888578
     public static final String CONFIG_URL = "http://tvbox.8ii8.top/wbtvboxwb.json";//动态域名
     public static final String BASE_URL_ENC = "aHR0cH";//域名
-    public static String API_KEY = "55885433f50db6915f3c94cf972c7002"; //接口密钥
+    public static String API_KEY = "4WaicW7FEEK6d266T87GkKzQw3QAbnpH"; //接口密钥
     public static String MMM_MMM = new String(Base64.decode(HawkConfig.BASE_URL_ENC.getBytes(), Base64.DEFAULT));
-    public static String zb_pzb = "0"; //抓包 勿修改，修改不防抓包
+    public static String zb_pzb = "茶茶QQ205888578"; //抓包 勿修改，修改不防抓包
     public static final String API_URL = "api_url";
     public static final String JSON_URL = "json_url";
     public static final String JSON_URL2 = "json_url2";//多线路
