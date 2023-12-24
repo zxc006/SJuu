@@ -8,13 +8,13 @@ import android.util.Base64;
  * @description:
  */
 public class HawkConfig {
-    public static String APP_ID = "10003"; //应用ID2
-    public static String Your_app_id = "98C9F3ADE0DB4B2696E482B9D71EDA29"; //TalkingData统计id  AndroidManifest.xml里面的也需要改
+    public static String APP_ID = "10001"; //应用ID2
+    public static String Your_app_id = "98C9"; //TalkingData统计id  AndroidManifest.xml里面的也需要改
     public static String Your_channel_id = ""; //渠道随意
     public static String dt_ym = "1"; //是否开启动态域名 0开启 1关闭  开启填入动态域名  关闭填入域名 茶茶QQ205888578
     public static final String CONFIG_URL = "https://cha-1252916141.cos.ap-nanjing.myqcloud.com/ym.json";//动态域名
     public static final String BASE_URL_ENC = "aHR0cHM6Ly95aS50bHVvLmNj";//域名
-    public static String API_KEY = "ac5c4038807e2d047c4e4cecf11f5099"; //接口密钥
+    public static String API_KEY = "55885433f50db6915f3c94cf972c7002"; //接口密钥
     public static String MMM_MMM = new String(Base64.decode(HawkConfig.BASE_URL_ENC.getBytes(), Base64.DEFAULT));
     public static String zb_pzb = "茶茶QQ205888578"; //抓包 勿修改，修改不防抓包
     public static final String API_URL = "api_url";
