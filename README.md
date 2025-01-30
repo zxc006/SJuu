@@ -1,21 +1,37 @@
-# TVBoxMobile
+# sniffing.tools
+嗅探网站网络资源工具
 
+## 主要功能
+* 嗅探网页中的媒体资源
 
+## windows使用方法
+- 直接双击启动
+- 使用命令行启动
+- 自制.bat脚本，文件名：start.bat，代码如下：
+  ```
+  start cmd /K "脚本名称.exe"
+  ```
 
-茶茶二开qq205888578
-对接后台，优化ui
+## linux使用方法
+首先保证你的系统安装了谷歌浏览器，如果没有安装，请自行安装
+- 运行方式1（缺点，命令行关闭就没了，可用于测试）
+```
+./脚本名称
+```
+- 运行方式2
+```
+nohup ./脚本名称
+```
+- 运行方式3
+使用你习惯用的项目管理器，比如宝塔自带的Go项目管理器
 
-=== Source Code - Editing the app default settings ===
-/src/main/java/com/github/tvbox/osc/base/App.java
+## 使用方式
+- 你的网址:端口/xt?url=
+- 你的位置:端口/xt?proxy=你的代理&url= （proxy务必放在url前面）
 
-    private void initParams() {
+## config.yaml 配置文件（不是很详细，请参考实例文件）
+如果需要自定义配置，请将代码中的文件拷贝在程序同级目录，请参考config.yaml内注释
 
-        putDefault(HawkConfig.HOME_REC, 0);                  //推荐: 0=豆瓣热播, 1=站点推荐
-        putDefault(HawkConfig.PLAY_TYPE, 2);                 //播放器: 0=系统, 1=IJK, 2=Exo
-        putDefault(HawkConfig.IJK_CODEC, "硬解码");           //IJK解码: 软解码, 硬解码
-        putDefault(HawkConfig.BACKGROUND_PLAY_TYPE,2);       //后台播放: 0 关闭,1 开启,2 画中画
-        putDefault(HawkConfig.PARSE_WEBVIEW, true);          //嗅探Webview: true=系统自带, false=XWalkView
-        putDefault(HawkConfig.DOH_URL, 0);                   //安全DNS: 0=关闭, 1=腾讯, 2=阿里, 3=360, 4=Google, 5=AdGuard, 6=Quad9
-        putDefault(HawkConfig.PLAY_SCALE, 0);                //画面缩放: 0=默认, 1=16:9, 2=4:3, 3=填充, 4=原始, 5=裁剪
+## LICENSE
 
-    }
+[MIT](https://opensource.org/license/mit/)
