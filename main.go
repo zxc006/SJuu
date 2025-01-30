@@ -12,8 +12,8 @@ import (
 )
 
 func main() {
-	fmt.Println("作者：By易仝 QQ：1944876825")
-	fmt.Println("开源地址：https://github.com/1944876825/sniffing.tools")
+	fmt.Println("作者： QQ：")
+	fmt.Println("开源的哦")
 	gin.SetMode(gin.ReleaseMode)
 	config.Config.GetConfig()
 
