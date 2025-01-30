@@ -112,6 +112,6 @@ func toParse(url string, proxy string) (*ParseType, error) {
 	})
 	return &ParseType{
 		PlayUrl: playUrl,
-		Type:    "最新",
+		Type:    "最新线路",
 	}, nil
 }
